@@ -1,0 +1,17 @@
+{
+  "name": "storehippo-crawler",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=prd pm2 start index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "puppeteer": "^0.13.0",
+    "request": "2.27.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "=4.5.0"
+  }
+}
