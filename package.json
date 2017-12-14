@@ -8,6 +8,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "puppeteer": "^0.13.0",
+    "mime-db": "^1.30.0",
     "request": "2.27.0"
   },
   "devDependencies": {},
